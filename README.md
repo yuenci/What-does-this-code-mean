@@ -29,7 +29,7 @@
 
 ## About The Project
 
-Some courses need to explain the code in documentation, and I don't like to do these meaningless things, so code this project and use the  GPT-3 artificial intelligence model's powerful code explanation ability to help me complete the task. If this project helps you, star it please! Thank you!
+Some modules need to explain the code in documentation, and I don't like to do these meaningless things, so I wrote this project and use the  GPT-3 artificial intelligence model's powerful code explanation ability to help me complete the task. If this project helps you, star it please! Thank you!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
