@@ -201,7 +201,7 @@ qicon.addEventListener('click', (e) => {
 
 shareIcon.addEventListener('click', (e) => {
     // sent text to clipboard
-    let text = "Generate code explanation automatically. Let's try it! https://yuenci.github.io/What-does-this-code-mean/";
+    let text = "Ai writes code explanation for you! Let's try it! https://yuenci.github.io/What-does-this-code-mean/";
     copyContent(text);
     alert("Link copied to clipboard");
 });
