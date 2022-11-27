@@ -135,11 +135,19 @@ textarea {
     transition: 0.3s;
 }
 
-
-
 .horizTranslateToLeft {
     transition: 1.5s;
     margin-left: 0% !important;
+}
+
+.vertTranslateToTop {
+    transition: 0.3s;
+    transform: translateY(-20px);
+}
+
+.vertTranslateToDown {
+    transition: 0.1s;
+    transform: translateY(0px);
 }
 
 

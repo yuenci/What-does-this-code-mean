@@ -37,6 +37,7 @@ cpBtn.addEventListener('click', (e) => {
     // copy to clipboard
     var copyText = document.querySelector('#code-result').value;
     copyContent(copyText);
+    jump();
 });
 
 async function copyContent(text) {
@@ -93,6 +94,32 @@ function removeClass() {
             nyanCat.classList.remove('rotateYY');
             resolve();
         }, 300);
+    });
+}
+
+async function jump() {
+    console.log("jump");
+    await jumpToTop();
+    await jumpToBottom();
+    nyanCat.classList.remove('vertTranslateToTop');
+    nyanCat.classList.remove('vertTranslateToDown');
+}
+
+function jumpToTop() {
+    return new Promise((resolve, reject) => {
+        nyanCat.classList.add('vertTranslateToTop');
+        setTimeout(() => {
+            resolve();
+        }, 300);
+    });
+}
+
+function jumpToBottom() {
+    return new Promise((resolve, reject) => {
+        nyanCat.classList.add('vertTranslateToDown');
+        setTimeout(() => {
+            resolve();
+        }, 100);
     });
 }
 
