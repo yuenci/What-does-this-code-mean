@@ -210,4 +210,5 @@ shareIcon.addEventListener('click', (e) => {
 
     copyContent(text, textareaHide);
     alert("Link copied to clipboard");
+    textareaHide.remove();
 });
