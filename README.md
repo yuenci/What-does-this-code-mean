@@ -2,7 +2,7 @@
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
-<a name="readme-top"></a>
+`<a name="readme-top"></a>`
 
 <!-- PROJECT LOGO -->
 
@@ -31,8 +31,8 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-Some courses need to explain the code in documentation, and I don't like to do these meaningless things, so code this project and use the  GPT-3 artificial intelligence model's powerful code explanation ability to help me complete the task. If this project helps you, star it please! Thank you!
 
+Some courses need to explain the code in documentation, and I don't like to do these meaningless things, so code this project and use the  GPT-3 artificial intelligence model's powerful code explanation ability to help me complete the task. If this project helps you, star it please! Thank you!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -51,7 +51,6 @@ This project uses JavaScript as the front-end language and python and flask fram
 
 ### Prerequisites
 
-
 * python
   ```python
   pip install flask
@@ -60,7 +59,6 @@ This project uses JavaScript as the front-end language and python and flask fram
   ```
 
 ### Installation
-
 
 1. Get a free API Key at [https://beta.openai.com/](https://beta.openai.com/)
 2. Clone the repo
@@ -78,7 +76,13 @@ This project uses JavaScript as the front-end language and python and flask fram
 
 ## Usage
 
-1. 
+1. Paste your code into the upper input box.
+2. Click the ok button.
+3. Wait for generating explanation
+4. Copy explanation
+
+
+![](./images/demo.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,13 +99,11 @@ See the [open issues](https://github.com/yuenci/What-does-this-code-mean/issues)
 
 <!-- CONTRIBUTING -->
 
-
 ## Authors
 
 <img src="https://github.com/yuenci/Laptop-Repair-Services-Management-System/blob/master/image/avatar-innis.png" alt="profile image" width="60px">
 
 <!-- CONTACT -->
-
 
 ## License
 
