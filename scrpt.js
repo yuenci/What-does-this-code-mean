@@ -33,6 +33,7 @@ okBtn.addEventListener('click', (e) => {
 });
 
 // disenble cpBtn
+//switchCopyStatus(true);
 
 cpBtn.addEventListener('click', (e) => {
     // copy to clipboard
@@ -42,12 +43,22 @@ cpBtn.addEventListener('click', (e) => {
 });
 
 async function copyContent(text) {
-    try {
-        await navigator.clipboard.writeText(text);
-        //console.log('Content copied to clipboard');
-    } catch (err) {
-        console.error('Failed to copy: ', err);
+    if (navigator.clipboard) {
+        try {
+            await navigator.clipboard.writeText(text);
+            //console.log('Content copied to clipboard');
+        } catch (err) {
+            console.error('Failed to copy: ', err);
+        }
+    } else {
+        try {
+            codeExplanation.select();
+            document.execCommand('copy', true);
+        } catch (err) {
+            console.error('Failed to copy: ', err);
+        }
     }
+
 }
 
 async function runAnimation() {
@@ -140,7 +151,7 @@ async function postData() {
         body: JSON.stringify(update),
     };
 
-    console.log("data", update);
+    //console.log("data", update);
     fetch('http://101.43.138.40:83/response', options)
         .then(data => {
             if (!data.ok) {
