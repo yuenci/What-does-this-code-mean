@@ -17,9 +17,6 @@
 <p align="center">
     An awesome web app to help you understand code!
     <br />
-
-    <br />
-    <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
     <a href="https://github.com/yuenci/What-does-this-code-mean/issues">Report Bug</a>
