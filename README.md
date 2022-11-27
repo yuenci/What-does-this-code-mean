@@ -17,7 +17,7 @@
 <p align="center">
     An awesome web app to help you understand code!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="http://101.43.138.40:84/">View Demo</a>
     ·
     <a href="https://github.com/yuenci/What-does-this-code-mean/issues">Report Bug</a>
     ·
@@ -39,6 +39,10 @@ Some courses need to explain the code in documentation, and I don't like to do t
 * Flask
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## DEMO
+[DEMO](http://101.43.138.40:84/)
+
 
 <!-- GETTING STARTED -->
 
