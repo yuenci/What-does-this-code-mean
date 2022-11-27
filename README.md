@@ -36,6 +36,7 @@ Some modules' assignments in my university need to explain the code in documenta
 ### Built With
 
 * Vanilla JS
+* Python
 * Flask
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
