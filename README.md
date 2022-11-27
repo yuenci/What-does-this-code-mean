@@ -2,7 +2,7 @@
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
-`<a name="readme-top"></a>`
+<a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
 
@@ -31,25 +31,15 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
+Some courses need to explain the code in documentation, and I don't like to do these meaningless things, so code this project and use the  GPT-3 artificial intelligence model's powerful code explanation ability to help me complete the task. If this project helps you, star it please! Thank you!
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life 😄
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-* vanilla JS
-* flask
+* Vanilla JS
+* Flask
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,34 +47,29 @@ Use the `BLANK_README.md` to get started.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This project uses JavaScript as the front-end language and python and flask frameworks as the back-end. You can deploy it locally or on a cloud server.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 
-* npm
-  ```sh
-  npm install npm@latest -g
+* python
+  ```python
+  pip install flask
+  pip install flask_cors
+  pip install openai
   ```
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get a free API Key at [https://beta.openai.com/](https://beta.openai.com/)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/yuenci/What-does-this-code-mean
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
+3. Enter your API in `main.py`
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   API = 'ENTER YOUR API';
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -93,9 +78,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
