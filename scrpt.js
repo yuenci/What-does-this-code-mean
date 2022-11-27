@@ -104,6 +104,7 @@ function removeClass() {
 
 
 async function postData() {
+    switchCopyStatus(false);
     let update = {
         "sentences": codeInput.value,
     };
@@ -159,5 +160,6 @@ function scrollToBottom() {
 }
 
 qicon.addEventListener('click', (e) => {
-    window.location.href = 'https://github.com/yuenci/What-does-this-code-mean';
+    // open in new tab
+    window.open('https://github.com/yuenci/What-does-this-code-mean', '_blank');
 });
