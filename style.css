@@ -20,6 +20,7 @@
 }
 
 #lower-container-right {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -86,4 +87,35 @@ textarea {
 
 #nyan-Cat {
     width: 70px;
+}
+
+.horizTranslateToRight {
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    margin-left: 90% !important;
+}
+
+.rotateY {
+    transform: rotateY(180deg);
+    transition: 0.5s;
+    margin-left: 90% !important;
+}
+
+.rotateYY {
+    transform: rotateY(360deg);
+    transition: 0.3s;
+}
+
+
+
+.horizTranslateToLeft {
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    margin-left: 0% !important;
 }
