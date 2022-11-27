@@ -159,3 +159,20 @@ a {
     color: #ff9999;
     font-size: 17px;
 }
+
+/* fix at lower right */
+#q-icon {
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    /* background-color: #000;
+    color: #fff; */
+    text-align: center;
+    line-height: 30px;
+}
+
+#q-icon:hover {
+    cursor: pointer;
+}

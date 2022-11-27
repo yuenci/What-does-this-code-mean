@@ -1,6 +1,7 @@
 var container = document.querySelector('#container');
 var codeInput = document.querySelector('#code-input');
 var codeExplanation = document.querySelector('#code-result');
+var qicon = document.querySelector('#q-icon');
 var okBtn = document.querySelector('#ok-btn');
 var cpBtn = document.querySelector('#cp-btn');
 var nyanCat = document.querySelector('#nyan-Cat');
@@ -156,3 +157,7 @@ function scrollToBottom() {
     let bottom = document.getElementById("cp-btn");
     window.scrollTo(0, heightToTop(bottom));
 }
+
+qicon.addEventListener('click', (e) => {
+    window.location.href = 'https://github.com/yuenci/What-does-this-code-mean';
+});
