@@ -2,6 +2,7 @@ var container = document.querySelector('#container');
 var codeInput = document.querySelector('#code-input');
 var codeExplanation = document.querySelector('#code-result');
 var qicon = document.querySelector('#q-icon');
+var shareIcon = document.querySelector('#share-icon');
 var okBtn = document.querySelector('#ok-btn');
 var cpBtn = document.querySelector('#cp-btn');
 var nyanCat = document.querySelector('#nyan-Cat');
@@ -98,7 +99,7 @@ function removeClass() {
 }
 
 async function jump() {
-    console.log("jump");
+    //console.log("jump");
     await jumpToTop();
     await jumpToBottom();
     nyanCat.classList.remove('vertTranslateToTop');
@@ -122,11 +123,6 @@ function jumpToBottom() {
         }, 100);
     });
 }
-
-
-
-
-
 
 
 
@@ -189,4 +185,12 @@ function scrollToBottom() {
 qicon.addEventListener('click', (e) => {
     // open in new tab
     window.open('https://github.com/yuenci/What-does-this-code-mean', '_blank');
+});
+
+
+shareIcon.addEventListener('click', (e) => {
+    // sent text to clipboard
+    let text = "What does this code mean? https://yuenci.github.io/What-does-this-code-mean/";
+    copyContent(text);
+    alert("Link copied to clipboard");
 });

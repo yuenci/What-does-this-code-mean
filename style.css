@@ -175,12 +175,20 @@ a {
     right: 10px;
     width: 30px;
     height: 30px;
-    /* background-color: #000;
-    color: #fff; */
-    text-align: center;
-    line-height: 30px;
 }
 
 #q-icon:hover {
+    cursor: pointer;
+}
+
+#share-icon {
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#share-icon:hover {
     cursor: pointer;
 }
