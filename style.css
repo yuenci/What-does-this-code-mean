@@ -60,7 +60,8 @@ textarea {
     height: 114px;
 }
 
-#ok-btn {
+#ok-btn,
+#cp-btn {
     float: right;
     margin-top: 20px;
     width: 80px;
@@ -71,13 +72,22 @@ textarea {
     font-size: 20px;
 }
 
-#ok-btn:hover {
+#cp-btn {
+    position: relative;
+    left: 433px;
+    /* opacity: 0.5;
+    pointer-events: none; */
+}
+
+#ok-btn:hover,
+#cp-btn:hover {
     background-color: #b0dfff;
     cursor: pointer;
 }
 
 /* add click style */
-#ok-btn:active {
+#ok-btn:active,
+#cp-btn:active {
     background-color: #84caf8;
 }
 
@@ -90,17 +100,13 @@ textarea {
 }
 
 .horizTranslateToRight {
-    -webkit-transition: 2s;
-    -moz-transition: 2s;
-    -ms-transition: 2s;
-    -o-transition: 2s;
-    transition: 2s;
+    transition: 1.5s;
     margin-left: 90% !important;
 }
 
 .rotateY {
     transform: rotateY(180deg);
-    transition: 0.5s;
+    transition: 0.3s;
     margin-left: 90% !important;
 }
 
@@ -112,10 +118,6 @@ textarea {
 
 
 .horizTranslateToLeft {
-    -webkit-transition: 2s;
-    -moz-transition: 2s;
-    -ms-transition: 2s;
-    -o-transition: 2s;
-    transition: 2s;
+    transition: 1.5s;
     margin-left: 0% !important;
 }

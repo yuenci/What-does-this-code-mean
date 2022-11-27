@@ -1,6 +1,7 @@
 var codeInput = document.querySelector('#code-input');
 var codeExplanation = document.querySelector('#code-result');
 var okBtn = document.querySelector('#ok-btn');
+var cpBtn = document.querySelector('#cp-btn');
 var nyanCat = document.querySelector('#nyan-Cat');
 
 codeInput.addEventListener('input', (e) => {
@@ -25,6 +26,23 @@ okBtn.addEventListener('click', (e) => {
     runAnimation();
 });
 
+// disenble cpBtn
+
+cpBtn.addEventListener('click', (e) => {
+    // copy to clipboard
+    var copyText = document.querySelector('#code-result').value;
+    copyContent(copyText);
+});
+
+async function copyContent(text) {
+    try {
+        await navigator.clipboard.writeText(text);
+        //console.log('Content copied to clipboard');
+    } catch (err) {
+        console.error('Failed to copy: ', err);
+    }
+}
+
 async function runAnimation() {
     await runToRight();
     await rotateY();
@@ -38,7 +56,7 @@ function runToRight() {
         nyanCat.classList.add('horizTranslateToRight');
         setTimeout(() => {
             resolve();
-        }, 2000);
+        }, 1500);
     });
 }
 
@@ -47,7 +65,7 @@ function rotateY() {
         nyanCat.classList.add('rotateY');
         setTimeout(() => {
             resolve();
-        }, 500);
+        }, 300);
     });
 }
 
@@ -56,7 +74,7 @@ function runToLeft() {
         nyanCat.classList.add('horizTranslateToLeft');
         setTimeout(() => {
             resolve();
-        }, 2000);
+        }, 1500);
     });
 }
 
@@ -69,6 +87,6 @@ function removeClass() {
         setTimeout(() => {
             nyanCat.classList.remove('rotateYY');
             resolve();
-        }, 500);
+        }, 300);
     });
 }
