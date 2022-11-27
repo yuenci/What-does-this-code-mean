@@ -51,7 +51,7 @@ Some modules' assignments in my university need to explain the code in documenta
 
 ## Getting Started
 
-This project uses JavaScript as the front-end language and python and flask frameworks as the back-end. You can deploy it locally or on a cloud server.
+This project uses JavaScript as the front-end language, python as as the back-end with flask framework. You can deploy it locally or on a cloud server.
 
 ### Prerequisites
 
