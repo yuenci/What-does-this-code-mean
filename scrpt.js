@@ -38,11 +38,11 @@ okBtn.addEventListener('click', (e) => {
 cpBtn.addEventListener('click', (e) => {
     // copy to clipboard
     var copyText = document.querySelector('#code-result').value;
-    copyContent(copyText);
+    copyContent(copyText, codeExplanation);
     jump();
 });
 
-async function copyContent(text) {
+async function copyContent(text, textObj) {
     if (navigator.clipboard) {
         try {
             await navigator.clipboard.writeText(text);
@@ -52,13 +52,12 @@ async function copyContent(text) {
         }
     } else {
         try {
-            codeExplanation.select();
+            textObj.select();
             document.execCommand('copy', true);
         } catch (err) {
             console.error('Failed to copy: ', err);
         }
     }
-
 }
 
 async function runAnimation() {
@@ -201,7 +200,14 @@ qicon.addEventListener('click', (e) => {
 
 shareIcon.addEventListener('click', (e) => {
     // sent text to clipboard
-    let text = "Ai writes code explanation for you! Let's try it! https://yuenci.github.io/What-does-this-code-mean/";
-    copyContent(text);
+    let text = "Ai writes code explanation for you Let's try it! https://yuenci.github.io/What-does-this-code-mean/";
+
+    var textareaHide = document.createElement('textarea');
+    document.body.appendChild(textareaHide);
+    textareaHide.style.position = 'absolute';
+    textareaHide.style.clip = 'rect(0 0 0 0)';
+    textareaHide.value = text;
+
+    copyContent(text, textareaHide);
     alert("Link copied to clipboard");
 });
