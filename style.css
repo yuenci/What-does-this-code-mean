@@ -57,16 +57,20 @@ textarea {
 #code-input {
     border: 5px solid#daf0ff;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 5px;
 }
 
 #code-result {
     border: 5px solid#daf0ff;
     font-family: 'Courier New', Courier, monospace;
     height: 114px;
+    font-size: 16px;
+    padding: 5px;
 }
 
 #ok-btn,
-#cp-btn {
+.cp-btn {
     float: right;
     margin-top: 20px;
     width: 80px;
@@ -77,22 +81,33 @@ textarea {
     font-size: 20px;
 }
 
-#cp-btn {
+.cp-btn {
+    margin-bottom: 40px;
+}
+
+.cp-btn {
     position: relative;
     left: 433px;
-    /* opacity: 0.5;
-    pointer-events: none; */
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.cp-btn-active {
+    position: relative;
+    left: 433px;
+    opacity: 1;
+    pointer-events: auto;
 }
 
 #ok-btn:hover,
-#cp-btn:hover {
+.cp-btn:hover {
     background-color: #b0dfff;
     cursor: pointer;
 }
 
 /* add click style */
 #ok-btn:active,
-#cp-btn:active {
+.cp-btn:active {
     background-color: #84caf8;
 }
 
