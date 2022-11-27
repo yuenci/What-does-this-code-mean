@@ -86,8 +86,9 @@ This project uses JavaScript as the front-end language, python as as the back-en
 4. Copy explanation
 
 
-
-<img src="./images/demo1.gif"  align="center"/>
+<div align="center">
+<img src="./images/demo1.gif"/>
+ </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
