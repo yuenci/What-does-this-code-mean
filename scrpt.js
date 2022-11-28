@@ -151,7 +151,7 @@ async function postData() {
     };
 
     //console.log("data", update);
-    fetch('http://101.43.138.40:83/response', options)
+    fetch('https://20.187.114.37:83/response', options)
         .then(data => {
             if (!data.ok) {
                 throw Error(data.status);
