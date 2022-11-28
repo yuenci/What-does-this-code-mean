@@ -29,13 +29,14 @@
 
 ## About The Project
 
-Some modules need to explain the code in documentation, and I don't like to do these meaningless things, so I wrote this project and use the  GPT-3 artificial intelligence model's powerful code explanation ability to help me complete the task. If this project helps you, star it please! Thank you!
+Some modules' assignments in my university need to explain the code in documentation, and I don't like to do these meaningless things, so I wrote this project and use the  GPT-3 artificial intelligence model's powerful code explanation ability to help me complete the task. If this project helps you, star it please! Thank you!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
 * Vanilla JS
+* Python
 * Flask
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -51,7 +52,7 @@ Some modules need to explain the code in documentation, and I don't like to do t
 
 ## Getting Started
 
-This project uses JavaScript as the front-end language and python and flask frameworks as the back-end. You can deploy it locally or on a cloud server.
+This project uses JavaScript as the front-end language, python as as the back-end with flask framework. You can deploy it locally or on a cloud server.
 
 ### Prerequisites
 
@@ -86,8 +87,9 @@ This project uses JavaScript as the front-end language and python and flask fram
 4. Copy explanation
 
 
-
-<img src="./images/demo1.gif"  align="center"/>
+<div align="center">
+<img src="./images/demo1.gif"/>
+ </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
