@@ -17,7 +17,7 @@
 <p align="center">
     An awesome web app to help you understand code!
     <br />
-    <a href="https://yuenci.github.io/What-does-this-code-mean/">View Demo</a>
+    <a href="http://101.43.138.40:84/">View Demo</a>
     ·
     <a href="https://github.com/yuenci/What-does-this-code-mean/issues">Report Bug</a>
     ·
@@ -43,7 +43,7 @@ Some modules' assignments in my university need to explain the code in documenta
 
 
 ## DEMO
-[DEMO](https://yuenci.github.io/What-does-this-code-mean/)
+[DEMO](http://101.43.138.40:84/)
 
 
 
