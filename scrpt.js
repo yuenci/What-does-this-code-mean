@@ -156,9 +156,9 @@ async function postData() {
         url = 'https://enjoycoding.me/api/response'
     } else if (url.startsWith('https://www.enjoycoding.me/')) {
         url = 'https://www.enjoycoding.me/api/response'
-    } else {
-        url = 'https://enjoycoding.me/api/response'
     }
+
+
     fetch(url, options)
         .then(data => {
             if (!data.ok) {
@@ -169,6 +169,7 @@ async function postData() {
             //console.log(update);
             codeExplanation.innerHTML = update.response;
             switchCopyStatus(true);
+            changeResultBoxHeight();
             scrollToBottom();
         }).catch(e => {
             console.log(e);
@@ -198,6 +199,10 @@ function heightToTop(ele) {
 function scrollToBottom() {
     let bottom = document.getElementById("cp-btn");
     window.scrollTo(0, heightToTop(bottom));
+}
+
+function changeResultBoxHeight() {
+    codeExplanation.style.height = codeExplanation.scrollHeight + 'px';
 }
 
 qicon.addEventListener('click', (e) => {
