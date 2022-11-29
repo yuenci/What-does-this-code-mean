@@ -156,9 +156,9 @@ async function postData() {
         url = 'https://enjoycoding.me/api/response'
     } else if (url.startsWith('https://www.enjoycoding.me/')) {
         url = 'https://www.enjoycoding.me/api/response'
+    } else {
+        url = 'https://enjoycoding.me/api/response'
     }
-
-
     fetch(url, options)
         .then(data => {
             if (!data.ok) {
