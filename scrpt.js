@@ -149,9 +149,17 @@ async function postData() {
         },
         body: JSON.stringify(update),
     };
+    // get current url
+    let url = window.location.href;
+    // start with http
+    if (url.startsWith('https://enjoycoding.me/')) {
+        url = 'https://enjoycoding.me/api/response'
+    } else if (url.startsWith('https://www.enjoycoding.me/')) {
+        url = 'https://www.enjoycoding.me/api/response'
+    }
 
-    //console.log("data", update);
-    fetch('https://enjoycoding.me/api/response', options)
+
+    fetch(url, options)
         .then(data => {
             if (!data.ok) {
                 throw Error(data.status);
