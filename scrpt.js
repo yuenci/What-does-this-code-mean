@@ -143,8 +143,7 @@ async function postData() {
     };
 
     let options = {
-        //method: 'POST',
-        mode: 'cors',
+        method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
