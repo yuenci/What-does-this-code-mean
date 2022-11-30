@@ -193,3 +193,7 @@ a {
 #share-icon:hover {
     cursor: pointer;
 }
+
+img {
+    user-select: none;
+}
