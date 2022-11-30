@@ -99,6 +99,7 @@ This project uses JavaScript as the front-end language, python as as the back-en
 
 - [ ] Add setting function for setting api keys.
 - [ ] Set whether to use animation or no
+- [ ] code highlight
 
 See the [open issues](https://github.com/yuenci/What-does-this-code-mean/issues) for a full list of proposed features (and known issues).
 
