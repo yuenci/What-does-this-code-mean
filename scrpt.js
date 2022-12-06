@@ -225,3 +225,8 @@ shareIcon.addEventListener('click', (e) => {
     alert("Link copied to clipboard");
     textareaHide.remove();
 });
+
+// resize window
+window.addEventListener('resize', (e) => {
+    codeInput
+});
