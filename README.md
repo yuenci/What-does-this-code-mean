@@ -72,9 +72,6 @@ This project uses JavaScript as the front-end language, python as as the back-en
    API = 'ENTER YOUR API';
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
 
 ### Docker 
 Check image here:
@@ -84,6 +81,10 @@ Check image here:
 $ sudo docker pull innis/wtcm:1.0
 $ sudo docker run  -it -p 83:83 innis/wtcm:1.0
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- USAGE EXAMPLES -->
 
 
 ## Usage
