@@ -2,7 +2,7 @@
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
-<a name="readme-top"></a>
+`<a name="readme-top"></a>`
 
 <!-- PROJECT LOGO -->
 
@@ -41,12 +41,9 @@ Some modules' assignments in my university need to explain the code in documenta
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## DEMO
+
 [DEMO](https://enjoycoding.me/code/)
-
-
-
 
 <!-- GETTING STARTED -->
 
@@ -79,13 +76,22 @@ This project uses JavaScript as the front-end language, python as as the back-en
 
 <!-- USAGE EXAMPLES -->
 
+### Docker 
+Check image here:
+[https://hub.docker.com/r/innis/wtcm](https://hub.docker.com/r/innis/wtcm)
+
+```sh
+$ sudo docker pull innis/wtcm:1.0
+$ sudo docker run  -it -p 83:83 innis/wtcm:1.0
+```
+
+
 ## Usage
 
 1. Paste your code into the upper input box.
 2. Click the ok button.
 3. Wait for generating explanation
 4. Copy explanation
-
 
 <div align="center">
 <img src="./images/demo1.gif"/>
@@ -100,8 +106,8 @@ This project uses JavaScript as the front-end language, python as as the back-en
 - [ ] Add setting function for setting api keys.
 - [ ] Set whether to use animation or no
 - [ ] Code highlight
-- [ ] Responsive layout
-- [ ]  Easter egg
+- [X] Responsive layout
+- [ ] Easter egg
 
 See the [open issues](https://github.com/yuenci/What-does-this-code-mean/issues) for a full list of proposed features (and known issues).
 

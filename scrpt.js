@@ -226,7 +226,3 @@ shareIcon.addEventListener('click', (e) => {
     textareaHide.remove();
 });
 
-// resize window
-window.addEventListener('resize', (e) => {
-    codeInput
-});
