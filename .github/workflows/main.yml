@@ -15,5 +15,5 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: 22
         source: "./" 
-        target: ${{ secrets.TARGET }}
+        target: /www/wwwroot/What-does-this-code-mean
         rm: true
